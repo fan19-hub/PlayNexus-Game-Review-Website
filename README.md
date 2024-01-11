@@ -1,1 +1,1 @@
-# fa23-cs411-team026-LADYS
+# PlayNexus: Full Stack Development of Game Review Website

@@ -1,0 +1,66 @@
+.Reviewform {
+  background:rgba(234,167,197, 1);
+  width:20%;
+  transform: translate(420px, 0px);
+  /* height: 50vh;
+  margin-left: 50px;
+  margin-right:50px;
+  border-radius: 1px; */
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+}
+.Reviewform2{
+  transform: translate(0px,0px);
+}
+.Rating{
+  /* width: 10px; */
+  transform: translate(0px, 0px);
+}
+.poster{
+  margin-bottom: 20px;
+}
+.post{
+  margin-bottom:50px;
+}
+.post2{
+  margin-top:30px;
+}
+.post3{
+  color:brown
+}
+.post4{
+  color:coral
+}
+.post5{
+  transform: translate(0px,0px);
+  color:white
+}
+.post6{
+  transform: translate(0px,0px);
+  color:red;
+}
+.post7{
+  transform: translate(-0px,0px);
+  color:blue
+}
+.post8{
+  padding-top:20px;
+}
+.post9{
+  padding-top:20px
+}
+.post10{
+  background-color: aliceblue;
+}
+.word{
+  color:white
+}
+.bg1 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}

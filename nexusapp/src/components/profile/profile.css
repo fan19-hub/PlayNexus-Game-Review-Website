@@ -1,0 +1,15 @@
+.bg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.info1{
+  transform: translate(0px, -250px)
+}
+.info2{
+  transform: translate(0px, -250px);
+  padding-top:30px
+}

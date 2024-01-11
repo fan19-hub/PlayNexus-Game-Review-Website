@@ -1,0 +1,88 @@
+.search_board_container{
+    margin-top:5vh;
+    display:flex;
+    align-items: center;
+}
+.search_board{
+    width: 90vw;
+    min-height: 300vh;
+    height: auto;
+    background-color:rgb(240,240,240);
+    /* margin-top:5vh; */
+    display:flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+
+
+.left_half{
+    margin-left:5vw;
+}
+
+.right_half{
+    background-color: rgb(211,211,211);
+    padding:10px;
+}
+
+.serach_bar_container{
+    background-color: #000000;
+    width:73vw;
+    padding:10px;
+    margin-bottom:10px;
+}
+.filter_button{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+
+.price_filter{
+    display: flex;
+    flex-direction: column;
+    border:1 rem grey;
+    border-style:inset;
+    padding: 3px;
+    margin:3px
+    
+}
+
+.price_range{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.other_filter{
+    display:flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items:center;
+
+}
+
+.searchresitem{
+    text-decoration: none;
+    color:black;
+}
+
+
+.search_res_list{
+    display: flex;
+    flex-direction: column;
+    justify-content: warp;
+    align-items: center;
+}
+
+.languageSelect>react-datalist-input__listbox{
+    transform: translate(0px,-100px);
+}
+.search_res_item{
+    display: flex;
+    flex-direction: row;
+}
+.search_res_img{
+    width:200px;
+    margin-right:20px;
+}

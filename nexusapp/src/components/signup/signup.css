@@ -1,0 +1,115 @@
+.background1 {
+  /* background-color: rgb(117,153,179); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.signupform {
+background:rgba(255,255,255, 0);
+  /* background-color: white; */
+  width: 30vw;
+  min-width: 300px;
+  height: 70vh;
+  transform: translate(0px, -10px);
+  margin: 0 auto;
+  margin-top:40px;
+  border-radius: 1px;
+  /* box-shadow: 0px 0px 10px 0px #888888; */
+}
+.signupform_1 {
+  /* background-color: rgb(57,85,124); */
+  background-color: rgb(255,161,187);
+  width: 380;
+  transform: translate(0px, 0px);
+  padding-left: 0px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 15px;
+
+}
+
+.signupform_2 {
+  background:rgba(255,255,255, 0);
+
+  /* background-color: white; */
+  width: 380;
+  /* padding: 20px; */
+  transform: translate(0px, -90px);
+}
+.signupform_3 {
+
+  width: 130px;
+  height: 40px;
+  /* transform: translate(-40px, 0px); */
+  background-color: pink;
+  border-width: 0;
+  margin-right: 50px; 
+  /* padding-right: 100px; */
+}
+
+.signupform_4 {
+background:rgba(255, 255, 255);
+width: 900px;
+height: 600px;
+margin: 0 auto;
+transform: translate(0px, -35px);
+border-radius: 20px;
+box-shadow: 0px 0px 10px 0px #888888;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+.signupform_4 >img{
+  width: 40%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  /* transform: translate(-280px, 0px); */
+  height: 600px;
+
+
+  }
+.signupform_5 {
+width: 130px;
+  height: 40px;
+  /* transform: translate(-40px, 0px); */
+  background-color: white;
+  border-width: 1;
+  border-color: pink;
+}
+
+
+.signupbuttons{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+margin-top:25px;
+transform: translate(0px, -90px);
+}
+
+
+.signuplabel {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.signupinput {
+  background:rgba(234,167,197,0.3);
+  width: 96%;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0px 0px 5px 0px #888888;
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+}
+

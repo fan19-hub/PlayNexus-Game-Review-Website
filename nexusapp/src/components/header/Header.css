@@ -1,0 +1,60 @@
+
+.menu-button-container {
+    background-color:aqua;
+}
+
+
+.react-datalist-input__container{
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+}
+.search-bar {
+    width: 20vw;
+    min-width: 200px;
+    padding: 8px 14px;
+
+    display: grid;
+    align-items: left;
+    font: normal 'Roboto',Helvetica,Sans-Serif;
+  }
+
+  .search-bar>input{
+    border:0px;
+  }
+  .search-bar>input:focus{
+    outline: none;
+  }
+
+.react-datalist-input__listbox{
+    transform: translate(0px, 55px);
+}
+
+
+.react-datalist-input__listbox-option{
+    display: flex;
+    align-items: left;
+    font: normal 'Roboto',Helvetica,Sans-Serif;
+    padding-left:10px;
+    padding-top:7px;
+    padding-bottom:7px;
+}
+
+
+  .home {
+    margin-right: 20px;
+  }
+
+.dropdown-menu{
+    transform: translate(-90px,10px);
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+}
+.dropdown-item{
+    margin: 2px;
+
+
+}
+/* .dropdown-item:hover{
+    box-shadow:rgba(0, 0, 0, 1);
+  }
+ */

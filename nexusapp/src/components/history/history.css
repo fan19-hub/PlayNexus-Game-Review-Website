@@ -1,0 +1,36 @@
+.bg2 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.viewedhistory{
+  margin-top: 30px;
+  background-color: lightyellow; /* Set the background color */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.historylist{
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.historyitem{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+.gameName {
+  /* flex-grow: 1; */
+  text-align: left;
+}
+
+.timestamp {
+  text-align: right;
+}
