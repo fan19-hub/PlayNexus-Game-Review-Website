@@ -1,5 +1,5 @@
 .background1 {
-  /* background-color: rgb(117,153,179); */
+  
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -10,7 +10,7 @@
 
 .signupform {
 background:rgba(255,255,255, 0);
-  /* background-color: white; */
+  
   width: 30vw;
   min-width: 300px;
   height: 70vh;
@@ -18,10 +18,10 @@ background:rgba(255,255,255, 0);
   margin: 0 auto;
   margin-top:40px;
   border-radius: 1px;
-  /* box-shadow: 0px 0px 10px 0px #888888; */
+  
 }
 .signupform_1 {
-  /* background-color: rgb(57,85,124); */
+  
   background-color: rgb(255,161,187);
   width: 380;
   transform: translate(0px, 0px);
@@ -35,20 +35,20 @@ background:rgba(255,255,255, 0);
 .signupform_2 {
   background:rgba(255,255,255, 0);
 
-  /* background-color: white; */
+  
   width: 380;
-  /* padding: 20px; */
+  
   transform: translate(0px, -90px);
 }
 .signupform_3 {
 
   width: 130px;
   height: 40px;
-  /* transform: translate(-40px, 0px); */
+  
   background-color: pink;
   border-width: 0;
   margin-right: 50px; 
-  /* padding-right: 100px; */
+  
 }
 
 .signupform_4 {
@@ -68,7 +68,7 @@ align-items: center;
   width: 40%;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
-  /* transform: translate(-280px, 0px); */
+  
   height: 600px;
 
 
@@ -76,7 +76,7 @@ align-items: center;
 .signupform_5 {
 width: 130px;
   height: 40px;
-  /* transform: translate(-40px, 0px); */
+  
   background-color: white;
   border-width: 1;
   border-color: pink;

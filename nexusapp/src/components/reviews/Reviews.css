@@ -2,19 +2,15 @@
   background:rgba(234,167,197, 1);
   width:20%;
   transform: translate(420px, 0px);
-  /* height: 50vh;
-  margin-left: 50px;
-  margin-right:50px;
-  border-radius: 1px; */
   display: flex;
-  /* flex-direction: column; */
+  
   justify-content: center;
 }
 .Reviewform2{
   transform: translate(0px,0px);
 }
 .Rating{
-  /* width: 10px; */
+  
   transform: translate(0px, 0px);
 }
 .poster{

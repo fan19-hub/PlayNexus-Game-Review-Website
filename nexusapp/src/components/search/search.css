@@ -8,10 +8,10 @@
     min-height: 300vh;
     height: auto;
     background-color:rgb(240,240,240);
-    /* margin-top:5vh; */
+    
     display:flex;
     flex-direction: row;
-    /* align-items: center; */
+    
     justify-content: space-between;
 }
 

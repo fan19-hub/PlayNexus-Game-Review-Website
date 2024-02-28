@@ -86,7 +86,7 @@ const Header = () => {
 
         <Container fluid>
             <Navbar.Brand href="/" >
-                <img src={"https://raw.githubusercontent.com/fan19-hub/fa23-cs411-team026-LADYS/main/icon.png"} alt="PlayNexus" style={{ height: '60px', marginRight: '5px' }} />
+                <img src={"https://raw.githubusercontent.com/fan19-hub/PlayNexus-Game-Review-Website/main/nexusapp/public/icon.png"} alt="PlayNexus" style={{ height: '60px', marginRight: '5px' }} />
             </Navbar.Brand>
 
              <DataListInput className="search-bar" placeholder="Search games!" items={searchHistory}  onSelect={onSelectHistory} onKeyDown={searchInput} onChange={(e) => setKeywords(e.target.value)} />

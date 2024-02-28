@@ -8,7 +8,7 @@
 }
 .viewedhistory{
   margin-top: 30px;
-  background-color: lightyellow; /* Set the background color */
+  background-color: lightyellow;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -27,7 +27,6 @@
 
 }
 .gameName {
-  /* flex-grow: 1; */
   text-align: left;
 }
 
