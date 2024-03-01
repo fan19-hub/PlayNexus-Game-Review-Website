@@ -1,3 +1,4 @@
+npm install react-scripts
 npm install express mysql2 body-parser sequelize cors
 npm install nodemon --save-dev
 npm install axios

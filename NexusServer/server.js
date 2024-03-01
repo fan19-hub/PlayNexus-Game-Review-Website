@@ -14,6 +14,7 @@ const connection =
        database: 'nexusdata'
      });
 
+
 // Connect to the MySQL database:
 connection.connect((err) => {
   if (err) throw err;
@@ -51,16 +52,12 @@ app.get('/api/v1/games', (req, res) => {
 // Read recommended games
 app.get('/api/v1/recommend', (req, res) => {
   const { name, description } = req.body;
-  // const sql = "select * from games natural join (select GameID, avg(Rating) as avgRating from games natural join reviews GROUP BY GameID) as q where SteamRecommendationCount>1000 and PriceFinal=0 and avgRating>7 and PlatformLinux=1;";
-  // connection.query(sql, (err, results) => {
-  //   if (err) throw err;
-  //   res.json(results);
-  // });
-  const sql ="CALL generalRecommendation();"
+  const sql = "select * from games natural join (select GameID, avg(Rating) as avgRating from games natural join reviews GROUP BY GameID) as q where SteamRecommendationCount>1000 and PriceFinal=0 and avgRating>7 and PlatformLinux=1;";
   connection.query(sql, (err, results) => {
     if (err) throw err;
-    res.json(results[0]);
+    res.json(results);
   });
+
 });
 
 //personal recommendations
@@ -71,16 +68,11 @@ app.get('/api/v1/personalrecommend', (req, res) => {
       return res.send(null);
     }
     const UserID = decoded.UserID;
-    // const sql = "select * from (select * from games where PriceInitial>PriceFinal)AS T JOIN viewedgames ON (T.GameID=viewedgames.GameID) NATURAL JOIN Users WHERE UserID=? ORDER BY GameName LIMIT 4;";
-    // if (err) throw err;
-    // res.json(results1);
-    // });
-    const sql ="CALL personal_rec(?);"
-    connection.query(sql, [UserID], (err, results1) => {
+    const sql = "select * from (select * from games where PriceInitial>PriceFinal)AS T JOIN viewedgames ON (T.GameID=viewedgames.GameID) NATURAL JOIN Users WHERE UserID=? ORDER BY GameName LIMIT 4;";
     if (err) throw err;
-      res.json(results1[0]);
+    res.json(results1);
     });
-  });
+
 });
 
 
